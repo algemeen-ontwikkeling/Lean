@@ -12,7 +12,7 @@ set TWSDIR=%2
 set CONTROLLER=ibcontroller.IBGatewayController
 if /i "%5" EQU "-tws" set CONTROLLER=ibcontroller.IBController
 
-set TWSCP=jts.jar;total.2012.jar
+set TWSCP=jts4launch.jar;total.jar;twslaunch.jar
 set JAVAOPTS=-Dsun.java2d.noddraw=false -Dswing.boldMetal=false -Dsun.locale.formatasdefault=true -Xmx768M
 
 :: start ib controller
