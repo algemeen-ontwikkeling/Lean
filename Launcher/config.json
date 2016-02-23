@@ -51,7 +51,12 @@
     "ib-port": "4001",
     "ib-agent-description": "Individual",
     "ib-use-tws": "false",
-    "ib-tws-dir": "C:\\Jts",
+    //Recommended, only a single version of the gateway exists, find the latest version in C:\\Jts\\ibgateway
+    "ib-tws-dir": "C:\\Jts\\ibgateway\\955\\jars",
+    //For this to work you need the TWS Offline Installer version, find the latest version in C:\\Jts
+    //"ib-tws-dir": "C:\\Jts\\ibgateway\\955\\jars",
+    //older versions of tws
+    //"ib-tws-dir": "C:\\Jts",
     "ib-controller-dir": "C:\\IBController",
 
     // tradier configuration
